@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="650.0" style="-fx-background-color: #CFD8DC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ComboBox fx:id="combo28" layoutX="490.0" layoutY="160.0" onAction="#combo28Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo31" layoutX="490.0" layoutY="194.0" onAction="#combo31Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo34" layoutX="490.0" layoutY="228.0" onAction="#combo34Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo35" layoutX="540.0" layoutY="228.0" onAction="#combo35Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo36" layoutX="590.0" layoutY="228.0" onAction="#combo36Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo32" layoutX="540.0" layoutY="194.0" onAction="#combo32Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo33" layoutX="590.0" layoutY="194.0" onAction="#combo33Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo30" layoutX="590.0" layoutY="160.0" onAction="#combo30Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo29" layoutX="540.0" layoutY="160.0" onAction="#combo29Changed" prefHeight="33.0" prefWidth="50.0" styleClass="orange" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo46" layoutX="182.0" layoutY="266.0" onAction="#combo46Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo49" layoutX="182.0" layoutY="300.0" onAction="#combo49Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo52" layoutX="182.0" layoutY="334.0" onAction="#combo52Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo53" layoutX="232.0" layoutY="334.0" onAction="#combo53Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo54" layoutX="282.0" layoutY="334.0" onAction="#combo54Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo50" layoutX="232.0" layoutY="300.0" onAction="#combo50Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo51" layoutX="282.0" layoutY="300.0" onAction="#combo51Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo48" layoutX="282.0" layoutY="266.0" onAction="#combo48Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo47" layoutX="232.0" layoutY="266.0" onAction="#combo47Changed" prefHeight="33.0" prefWidth="50.0" styleClass="white" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo37" layoutX="182.0" layoutY="54.0" onAction="#combo37Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo40" layoutX="182.0" layoutY="88.0" onAction="#combo40Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo43" layoutX="182.0" layoutY="122.0" onAction="#combo43Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo44" layoutX="232.0" layoutY="122.0" onAction="#combo44Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo45" layoutX="282.0" layoutY="122.0" onAction="#combo45Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo41" layoutX="232.0" layoutY="88.0" onAction="#combo41Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo42" layoutX="282.0" layoutY="88.0" onAction="#combo42Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo39" layoutX="282.0" layoutY="54.0" onAction="#combo39Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo38" layoutX="232.0" layoutY="54.0" onAction="#combo38Changed" prefHeight="33.0" prefWidth="50.0" styleClass="yellow" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo1" layoutX="27.0" layoutY="160.0" onAction="#combo1Changed" prefHeight="34.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo4" layoutX="27.0" layoutY="194.0" onAction="#combo4Changed" prefHeight="33.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo7" layoutX="27.0" layoutY="228.0" onAction="#combo7Changed" prefHeight="33.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo8" layoutX="77.0" layoutY="228.0" onAction="#combo8Changed" prefHeight="33.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo9" layoutX="127.0" layoutY="228.0" onAction="#combo9Changed" prefHeight="33.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo5" layoutX="77.0" layoutY="194.0" onAction="#combo5Changed" prefHeight="33.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo6" layoutX="127.0" layoutY="194.0" onAction="#combo6Changed" prefHeight="33.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo3" layoutX="127.0" layoutY="160.0" onAction="#combo3Changed" prefHeight="33.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo2" layoutX="77.0" layoutY="160.0" onAction="#combo2Changed" prefHeight="33.0" prefWidth="50.0" styleClass="blue" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo19" layoutX="336.0" layoutY="160.0" onAction="#combo19Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo22" layoutX="336.0" layoutY="194.0" onAction="#combo22Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo25" layoutX="336.0" layoutY="228.0" onAction="#combo25Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo26" layoutX="386.0" layoutY="228.0" onAction="#combo26Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo27" layoutX="436.0" layoutY="228.0" onAction="#combo27Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo23" layoutX="386.0" layoutY="194.0" onAction="#combo23Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo24" layoutX="436.0" layoutY="194.0" onAction="#combo24Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo21" layoutX="436.0" layoutY="160.0" onAction="#combo21Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo20" layoutX="386.0" layoutY="160.0" onAction="#combo20Changed" prefHeight="33.0" prefWidth="50.0" styleClass="green" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo10" layoutX="182.0" layoutY="160.0" onAction="#combo10Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo13" layoutX="182.0" layoutY="194.0" onAction="#combo13Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo16" layoutX="182.0" layoutY="228.0" onAction="#combo16Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo17" layoutX="232.0" layoutY="228.0" onAction="#combo17Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo18" layoutX="282.0" layoutY="228.0" onAction="#combo18Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo14" layoutX="232.0" layoutY="194.0" onAction="#combo14Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo15" layoutX="282.0" layoutY="194.0" onAction="#combo15Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo12" layoutX="282.0" layoutY="160.0" onAction="#combo12Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <ComboBox fx:id="combo11" layoutX="232.0" layoutY="160.0" onAction="#combo11Changed" prefHeight="33.0" prefWidth="50.0" styleClass="red" stylesheets="@dec.css" />
+      <Button fx:id="solve" layoutX="505.0" layoutY="368.0" mnemonicParsing="false" onAction="#input" prefHeight="34.0" prefWidth="98.0" text="Start Solve" />
+      <Button layoutX="39.0" layoutY="368.0" mnemonicParsing="false" onAction="#reset" prefHeight="34.0" prefWidth="98.0" text="Reset" />
+   </children>
+</AnchorPane>
