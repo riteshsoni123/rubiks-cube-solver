@@ -24,17 +24,29 @@ HOW TO USE THE CODE.......................................
 8-The program will generate series of algorithm(example given below) which when followed "STRICTLY", one can solve the cube.
 
   1-B L F' L' F2 R2 U' D2 R' L2 L' B' D D2 B R' B' F B R' U' F2 D2 R' B2 
-  cross track 1     B U R' U U R' U U U L'
-  cross track     U L L U' R R U' F F U B B
-  f2l       F' U F F' U U F
-  f2l       F U U F' L U' U' L'
-  f2l       F U F' MD L U' L' MD' B U' B'
-  f2l       L' U L MD MD R' U U R MD' MD' L' U L
-  oll       U R U R' U' R' F R F'
-  pll        U U U R U R' U' R' F R R U' R' U' R U R' F'
-  last move       U U
+  
+  cross track 1   =    B U R' U U R' U U U L'
+  
+  cross track   =    U L L U' R R U' F F U B B
+  
+  f2l   =    F' U F F' U U F
+  
+  f2l   =   F U U F' L U' U' L'
+  
+  f2l   =   F U F' MD L U' L' MD' B U' B'
+  
+  f2l   =   L' U L MD MD R' U U R MD' MD' L' U L
+  
+  oll    =   U R U R' U' R' F R F'
+  
+  pll    =   U U U R U R' U' R' F R R U' R' U' R U R' F'
+  
+  last move  =     U U
+  
         SOLVED
+        
   1
+  
 MEANING OF THE ALGORITHM GIVEN BY THE CODE.....................
 
 F=front clockwise
